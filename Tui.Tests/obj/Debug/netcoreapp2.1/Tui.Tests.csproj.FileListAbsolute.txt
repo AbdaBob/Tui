@@ -1,0 +1,17 @@
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Tui.Tests.deps.json
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Tui.Tests.runtimeconfig.json
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Tui.Tests.runtimeconfig.dev.json
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Tui.Tests.dll
+D:\Projets\Tui\Tui.Tests\obj\Debug\netcoreapp2.1\Tui.Tests.csprojAssemblyReference.cache
+D:\Projets\Tui\Tui.Tests\obj\Debug\netcoreapp2.1\Tui.Tests.csproj.CoreCompileInputs.cache
+D:\Projets\Tui\Tui.Tests\obj\Debug\netcoreapp2.1\Tui.Tests.AssemblyInfoInputs.cache
+D:\Projets\Tui\Tui.Tests\obj\Debug\netcoreapp2.1\Tui.Tests.AssemblyInfo.cs
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Tui.Tests.pdb
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Tui.Mvc.dll
+D:\Projets\Tui\Tui.Tests\bin\Debug\netcoreapp2.1\Tui.Mvc.pdb
+D:\Projets\Tui\Tui.Tests\obj\Debug\netcoreapp2.1\Tui.Tests.csproj.CopyComplete
+D:\Projets\Tui\Tui.Tests\obj\Debug\netcoreapp2.1\Tui.Tests.dll
+D:\Projets\Tui\Tui.Tests\obj\Debug\netcoreapp2.1\Tui.Tests.pdb

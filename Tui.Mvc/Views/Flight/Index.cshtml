@@ -1,0 +1,19 @@
+﻿@model FlightIndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    <h2>@FlightResources.AddingFlight</h2>
+
+    <div>
+        @await Component.InvokeAsync("AddFlight")
+    </div>
+
+    <h2>@FlightResources.FlightsResults</h2>
+    <div>
+        @await Component.InvokeAsync("FlightResults")
+    </div>
+</div>
+
+

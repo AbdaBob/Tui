@@ -1,0 +1,48 @@
+﻿@model FlightDetailModel
+
+
+<div class="row">
+    <form asp-controller="Flight" asp-action="Put" class="form-horizontal">
+
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <div class="col-md-3 ">
+                <select class="form-control "
+                        asp-for="DepartureAirportId"
+                        asp-items="@(new SelectList(Model.Airports, "Id", "Name"))">
+                    <option>@FlightResources.ChooseAirport</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-3 ">
+                <select class="form-control"
+                        asp-for="DestinationAirportId"
+                        asp-items="@(new SelectList(Model.Airports,"Id","Name"))">
+                    <option>@FlightResources.ChooseAirport</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+           <div class="col-md-3 ">
+                <select class="form-control"
+                        asp-for="AircraftId"
+                        asp-items="@(new SelectList(Model.Aircrafts,"Id","Name"))">
+                    <option>@FlightResources.ChooseAircraft</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="form-group center-block">
+            <input class="btn btn-default col-md-offset-3" type="submit" />
+        </div>
+
+    </form>
+
+</div>
+
+
+

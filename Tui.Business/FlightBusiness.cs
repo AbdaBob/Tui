@@ -1,0 +1,76 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+using Tui.Services.Aircraft;
+using Tui.Services.Airport;
+using Tui.Services.Flight;
+
+namespace Tui.Business
+{
+    public class FlightBusiness : IFlightBusiness
+    {
+        private readonly IFlightService _flightService;
+        private readonly IAircraftService _aircraftService;
+        private readonly IAirportService _airportService;
+        public FlightBusiness(IFlightService flightService, IAircraftService aircraftService, IAirportService airportService)
+        {
+            _flightService = flightService;
+            _aircraftService = aircraftService;
+            _airportService = airportService;
+        }
+        public async Task AddSync(FlightDto flight)
+        {
+            flight = await CompleteFlight(flight);
+            await _flightService.AddAsync(flight);
+            
+        }
+        public async Task UpdateAsync(UpdateFlightDto flight)
+        {
+            flight =(UpdateFlightDto) await CompleteFlight(flight);            
+            await _flightService.UpdateAsync(flight);
+        }
+
+        private async Task<FlightDto> CompleteFlight(FlightDto flight)
+        {
+            var destination = await _airportService.GetAsync(flight.DestinationAirportId);
+            var departure = await _airportService.GetAsync(flight.DepartureAirportId);
+            var aircraft = await _aircraftService.GetAsync(flight.AircraftId);
+
+            flight.Distance = DistanceBetweenPlaces(departure, destination);
+            flight.FuelConsumption = FuelConsumption(aircraft, flight.Distance);
+
+            return flight;
+        }
+       
+
+        private  double Radians(double x)
+        {
+            return x * Math.PI / 180;
+        }
+        private double FuelConsumption(AircraftDto aircraft, double distance)
+        {
+            return aircraft.FuelConsumption * distance + aircraft.TakeOffEffort;
+        }
+         private double DistanceBetweenPlaces(AirportDto departure,AirportDto destination)
+        {
+            var R = 6371; // km
+
+            var latDepartureSinus = Math.Sin(Radians(departure.Latitude));
+            var latDestinationSinus = Math.Sin(Radians(destination.Latitude));
+            var latDepartureCosinus = Math.Cos(Radians(departure.Latitude));
+            var latDestiniationCosinus = Math.Cos(Radians(destination.Latitude));
+            var longitudeCosinus = Math.Cos(Radians(departure.Longitude) - Radians(destination.Longitude));
+
+            var cosD = latDepartureSinus * latDestinationSinus + latDepartureCosinus * latDestiniationCosinus * longitudeCosinus;
+
+            var d = Math.Acos(cosD);
+
+            var dist = R * d;
+
+            return dist;
+        }
+
+        
+    }
+}

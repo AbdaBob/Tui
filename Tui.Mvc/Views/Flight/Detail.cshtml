@@ -1,0 +1,6 @@
+﻿@model int
+<div>
+    <h2>@FlightResources.UpdateFlight</h2>
+    @await Component.InvokeAsync("FlightDetail", new { id = Model })
+</div>
+

@@ -1,0 +1,32 @@
+﻿@model FlightResultsModel
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>@FlightResources.Identity</td>
+            <td>@FlightResources.DepartureAirport</td>
+            <td>@FlightResources.DestinationAirport</td>
+            <td>@FlightResources.Aircraft</td>
+            <td>@FlightResources.Distance</td>
+            <td>@FlightResources.FuelConsumption</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detail in Model.Results)
+        {
+        <tr>
+            <td><span> <a href="@Url.Action("Detail","Flight",new { id = detail.Id})">@detail.Id</a> </span> </td>
+            <td>@detail.Departure</td>
+            <td>@detail.Destination</td>
+            <td>@detail.Aircraft</td>
+            <td>@Math.Ceiling(@detail.Distance)</td>
+            <td> @Math.Ceiling(@detail.FuelConsumption)</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+

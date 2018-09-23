@@ -61,13 +61,9 @@ namespace Tui.Tests
         [TestMethod]
         public async Task WhenUpdateCompleteFlightTheReturnsTrue()
         {
-            // Arrange
-
             var flightDto = new UpdateFlightDto { DepartureAirportId = 1, DestinationAirportId = 2, AircraftId = 1 };
-            //Act
-
+            
             var result = await _business.UpdateAsync(flightDto);
-            //Assert
             result.Should().Be(true);
             _flightServiceMock.Verify(f => f.UpdateAsync(flightDto), Times.Once);
         }
@@ -75,13 +71,9 @@ namespace Tui.Tests
         [TestMethod]
         public async Task WhenAddCompleteFlightTheReturnsTrue()
         {
-            // Arrange
-
+            
             var flightDto = new FlightDto { DepartureAirportId = 1, DestinationAirportId = 2, AircraftId = 1 };
-            //Act
-
             var result = await _business.AddSync(flightDto);
-            //Assert
             result.Should().Be(true);
             _flightServiceMock.Verify(f => f.AddAsync(flightDto), Times.Once);
         }
@@ -91,10 +83,8 @@ namespace Tui.Tests
         [ExpectedException(typeof(ArgumentNullException))]
         public async Task WhenAddCompleteFlightButWrongValuesTheGetArgumentNullException()
         {
-            // Arrange
             var flightDto = new FlightDto { DepartureAirportId = 1, DestinationAirportId = 3, AircraftId = 1 };
             
-            //Act
             var result = await _business.AddSync(flightDto);
            
         }
@@ -103,10 +93,7 @@ namespace Tui.Tests
         [ExpectedException(typeof(ArgumentNullException))]
         public async Task WhenUpdateCompleteFlightButWrongValuesTheGetArgumentNullException()
         {
-            // Arrange
             var flightDto = new UpdateFlightDto { DepartureAirportId = 1, DestinationAirportId = 3, AircraftId = 1 };
-
-            //Act
             var result = await _business.UpdateAsync(flightDto);
 
         }
@@ -117,13 +104,10 @@ namespace Tui.Tests
             _flightServiceMock.Setup(f => f.AddAsync(It.IsAny<FlightDto>())).Returns(Task.FromResult(false));
             _business = new FlightBusiness(_flightServiceMock.Object, _aircraftServiceMock.Object, _airportServiceMock.Object);
 
-            // Arrange
-
             var flightDto = new FlightDto { DepartureAirportId = 1, DestinationAirportId = 2, AircraftId = 1 };
-            //Act
-
+            
             var result = await _business.AddSync(flightDto);
-            //Assert
+
             result.Should().Be(false);
             _flightServiceMock.Verify(f => f.AddAsync(flightDto), Times.Once);
         }

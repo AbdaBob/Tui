@@ -20,8 +20,6 @@ namespace Tui.Tests
         {
             _factoryMock = new Mock<IHttpClientFactory>();
             var handlerMock = new Mock<FakeHttpHandler>() { CallBase = false };
-            //_httpClient = GetHttpClient();
-            //_factoryMock.Setup(s => s.CreateClient(It.IsAny<string>())).Returns(_httpClient);
         }
 
         [DataTestMethod]

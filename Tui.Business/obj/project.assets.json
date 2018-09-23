@@ -3988,11 +3988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projets\\Tui\\Tui.Business\\Tui.Business.csproj",
+      "projectUniqueName": "D:\\Projets\\Tui\\Tui\\Tui.Business\\Tui.Business.csproj",
       "projectName": "Tui.Business",
-      "projectPath": "D:\\Projets\\Tui\\Tui.Business\\Tui.Business.csproj",
+      "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Business\\Tui.Business.csproj",
       "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-      "outputPath": "D:\\Projets\\Tui\\Tui.Business\\obj\\",
+      "outputPath": "D:\\Projets\\Tui\\Tui\\Tui.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4011,8 +4011,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Projets\\Tui\\Tui.Services\\Tui.Services.csproj": {
-              "projectPath": "D:\\Projets\\Tui\\Tui.Services\\Tui.Services.csproj"
+            "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj"
             }
           }
         }

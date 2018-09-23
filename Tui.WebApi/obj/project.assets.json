@@ -12686,11 +12686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projets\\Tui\\Tui.WebApi\\Tui.WebApi.csproj",
+      "projectUniqueName": "D:\\Projets\\Tui\\Tui\\Tui.WebApi\\Tui.WebApi.csproj",
       "projectName": "Tui.WebApi",
-      "projectPath": "D:\\Projets\\Tui\\Tui.WebApi\\Tui.WebApi.csproj",
+      "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.WebApi\\Tui.WebApi.csproj",
       "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-      "outputPath": "D:\\Projets\\Tui\\Tui.WebApi\\obj\\",
+      "outputPath": "D:\\Projets\\Tui\\Tui\\Tui.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12709,17 +12709,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Projets\\Tui\\Tui.Business\\Tui.Business.csproj": {
-              "projectPath": "D:\\Projets\\Tui\\Tui.Business\\Tui.Business.csproj"
+            "D:\\Projets\\Tui\\Tui\\Tui.Business\\Tui.Business.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Business\\Tui.Business.csproj"
             },
-            "D:\\Projets\\Tui\\Tui.Domain\\Tui.Domain.csproj": {
-              "projectPath": "D:\\Projets\\Tui\\Tui.Domain\\Tui.Domain.csproj"
+            "D:\\Projets\\Tui\\Tui\\Tui.Domain\\Tui.Domain.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Domain\\Tui.Domain.csproj"
             },
-            "D:\\Projets\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj": {
-              "projectPath": "D:\\Projets\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj"
+            "D:\\Projets\\Tui\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj"
             },
-            "D:\\Projets\\Tui\\Tui.Services\\Tui.Services.csproj": {
-              "projectPath": "D:\\Projets\\Tui\\Tui.Services\\Tui.Services.csproj"
+            "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj"
             }
           }
         }

@@ -3970,11 +3970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projets\\Tui\\Tui.Services\\Tui.Services.csproj",
+      "projectUniqueName": "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj",
       "projectName": "Tui.Services",
-      "projectPath": "D:\\Projets\\Tui\\Tui.Services\\Tui.Services.csproj",
+      "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj",
       "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-      "outputPath": "D:\\Projets\\Tui\\Tui.Services\\obj\\",
+      "outputPath": "D:\\Projets\\Tui\\Tui\\Tui.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3993,11 +3993,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Projets\\Tui\\Tui.Domain\\Tui.Domain.csproj": {
-              "projectPath": "D:\\Projets\\Tui\\Tui.Domain\\Tui.Domain.csproj"
+            "D:\\Projets\\Tui\\Tui\\Tui.Domain\\Tui.Domain.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Domain\\Tui.Domain.csproj"
             },
-            "D:\\Projets\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj": {
-              "projectPath": "D:\\Projets\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj"
+            "D:\\Projets\\Tui\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Infrastructure\\Tui.Infrastructure.csproj"
             }
           }
         }

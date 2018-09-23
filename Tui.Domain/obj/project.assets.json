@@ -2885,11 +2885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projets\\Tui\\Tui.Domain\\Tui.Domain.csproj",
+      "projectUniqueName": "D:\\Projets\\Tui\\Tui\\Tui.Domain\\Tui.Domain.csproj",
       "projectName": "Tui.Domain",
-      "projectPath": "D:\\Projets\\Tui\\Tui.Domain\\Tui.Domain.csproj",
+      "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Domain\\Tui.Domain.csproj",
       "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-      "outputPath": "D:\\Projets\\Tui\\Tui.Domain\\obj\\",
+      "outputPath": "D:\\Projets\\Tui\\Tui\\Tui.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -13,7 +13,9 @@
           "MSTest.TestFramework": "1.2.1",
           "Microsoft.NET.Test.Sdk": "15.7.0",
           "Moq": "4.10.0",
-          "Tui.Mvc": "1.0.0"
+          "Tui.Business": "1.0.0",
+          "Tui.Mvc": "1.0.0",
+          "Tui.Services": "1.0.0"
         },
         "runtime": {
           "Tui.Tests.dll": {}
@@ -4465,6 +4467,31 @@
           }
         }
       },
+      "Tui.Business/1.0.0": {
+        "dependencies": {
+          "Tui.Services": "1.0.0"
+        },
+        "runtime": {
+          "Tui.Business.dll": {}
+        }
+      },
+      "Tui.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.2"
+        },
+        "runtime": {
+          "Tui.Domain.dll": {}
+        }
+      },
+      "Tui.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.2",
+          "Tui.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Tui.Infrastructure.dll": {}
+        }
+      },
       "Tui.Mvc/1.0.0": {
         "dependencies": {
           "AutoMapper": "6.2.2",
@@ -4476,6 +4503,16 @@
         },
         "runtime": {
           "Tui.Mvc.dll": {}
+        }
+      },
+      "Tui.Services/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "6.2.2",
+          "Tui.Domain": "1.0.0",
+          "Tui.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Tui.Services.dll": {}
         }
       }
     }
@@ -6761,7 +6798,27 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
+    "Tui.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tui.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tui.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Tui.Mvc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tui.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

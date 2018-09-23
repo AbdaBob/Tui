@@ -5612,6 +5612,46 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "Tui.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Tui.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tui.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tui.Business.dll": {}
+        }
+      },
+      "Tui.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Tui.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tui.Domain.dll": {}
+        }
+      },
+      "Tui.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.2",
+          "Tui.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tui.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tui.Infrastructure.dll": {}
+        }
+      },
       "Tui.Mvc/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -5629,6 +5669,21 @@
         },
         "runtime": {
           "bin/placeholder/Tui.Mvc.dll": {}
+        }
+      },
+      "Tui.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "AutoMapper": "6.2.2",
+          "Tui.Domain": "1.0.0",
+          "Tui.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tui.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tui.Services.dll": {}
         }
       }
     }
@@ -14574,10 +14629,30 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "Tui.Business/1.0.0": {
+      "type": "project",
+      "path": "../Tui.Business/Tui.Business.csproj",
+      "msbuildProject": "../Tui.Business/Tui.Business.csproj"
+    },
+    "Tui.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Tui.Domain/Tui.Domain.csproj",
+      "msbuildProject": "../Tui.Domain/Tui.Domain.csproj"
+    },
+    "Tui.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Tui.Infrastructure/Tui.Infrastructure.csproj",
+      "msbuildProject": "../Tui.Infrastructure/Tui.Infrastructure.csproj"
+    },
     "Tui.Mvc/1.0.0": {
       "type": "project",
       "path": "../Tui.Mvc/Tui.Mvc.csproj",
       "msbuildProject": "../Tui.Mvc/Tui.Mvc.csproj"
+    },
+    "Tui.Services/1.0.0": {
+      "type": "project",
+      "path": "../Tui.Services/Tui.Services.csproj",
+      "msbuildProject": "../Tui.Services/Tui.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -14588,7 +14663,9 @@
       "Microsoft.NET.Test.Sdk >= 15.7.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Moq >= 4.10.0",
-      "Tui.Mvc >= 1.0.0"
+      "Tui.Business >= 1.0.0",
+      "Tui.Mvc >= 1.0.0",
+      "Tui.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -14621,8 +14698,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "D:\\Projets\\Tui\\Tui\\Tui.Business\\Tui.Business.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Business\\Tui.Business.csproj"
+            },
             "D:\\Projets\\Tui\\Tui\\Tui.Mvc\\Tui.Mvc.csproj": {
               "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Mvc\\Tui.Mvc.csproj"
+            },
+            "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj": {
+              "projectPath": "D:\\Projets\\Tui\\Tui\\Tui.Services\\Tui.Services.csproj"
             }
           }
         }

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using Tui.Services.Aircraft;
 using Tui.Services.Airport;
@@ -13,22 +11,46 @@ namespace Tui.Business
         private readonly IFlightService _flightService;
         private readonly IAircraftService _aircraftService;
         private readonly IAirportService _airportService;
-        public FlightBusiness(IFlightService flightService, IAircraftService aircraftService, IAirportService airportService)
+
+        public FlightBusiness(IFlightService flightService, 
+                              IAircraftService aircraftService, 
+                              IAirportService airportService)
         {
             _flightService = flightService;
             _aircraftService = aircraftService;
             _airportService = airportService;
         }
-        public async Task AddSync(FlightDto flight)
+
+        public async Task<bool> AddSync(FlightDto flight)
         {
-            flight = await CompleteFlight(flight);
-            await _flightService.AddAsync(flight);
+            if (flight == null)
+                throw new ArgumentNullException(nameof(AddSync));
+            try
+            {
+                flight = await CompleteFlight(flight);
+            }
+            catch (ArgumentNullException)
+            {
+                throw;
+            }
+            
+           return await _flightService.AddAsync(flight);
             
         }
-        public async Task UpdateAsync(UpdateFlightDto flight)
+        public async Task<bool> UpdateAsync(UpdateFlightDto flight)
         {
-            flight =(UpdateFlightDto) await CompleteFlight(flight);            
-            await _flightService.UpdateAsync(flight);
+            if (flight == null)
+                throw new ArgumentNullException(nameof(UpdateAsync));
+            try
+            {
+                flight = (UpdateFlightDto)await CompleteFlight(flight);
+            }
+            catch (ArgumentNullException)
+            {
+                throw;
+            }
+                        
+           return await _flightService.UpdateAsync(flight);
         }
 
         private async Task<FlightDto> CompleteFlight(FlightDto flight)
@@ -36,6 +58,9 @@ namespace Tui.Business
             var destination = await _airportService.GetAsync(flight.DestinationAirportId);
             var departure = await _airportService.GetAsync(flight.DepartureAirportId);
             var aircraft = await _aircraftService.GetAsync(flight.AircraftId);
+
+            if (destination == null || departure == null || aircraft == null)
+                throw new ArgumentNullException(nameof(CompleteFlight));
 
             flight.Distance = DistanceBetweenPlaces(departure, destination);
             flight.FuelConsumption = FuelConsumption(aircraft, flight.Distance);

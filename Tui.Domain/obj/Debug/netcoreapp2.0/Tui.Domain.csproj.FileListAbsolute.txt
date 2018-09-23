@@ -16,3 +16,12 @@ D:\Projets\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.AssemblyInfoInputs.
 D:\Projets\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.AssemblyInfo.cs
 D:\Projets\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.dll
 D:\Projets\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.pdb
+D:\Projets\Tui\Tui\Tui.Domain\bin\Debug\netcoreapp2.0\Tui.Domain.deps.json
+D:\Projets\Tui\Tui\Tui.Domain\bin\Debug\netcoreapp2.0\Tui.Domain.dll
+D:\Projets\Tui\Tui\Tui.Domain\bin\Debug\netcoreapp2.0\Tui.Domain.pdb
+D:\Projets\Tui\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.csprojAssemblyReference.cache
+D:\Projets\Tui\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.csproj.CoreCompileInputs.cache
+D:\Projets\Tui\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.AssemblyInfoInputs.cache
+D:\Projets\Tui\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.AssemblyInfo.cs
+D:\Projets\Tui\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.dll
+D:\Projets\Tui\Tui\Tui.Domain\obj\Debug\netcoreapp2.0\Tui.Domain.pdb

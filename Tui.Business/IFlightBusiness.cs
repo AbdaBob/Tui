@@ -8,7 +8,7 @@ namespace Tui.Business
 {
     public interface IFlightBusiness
     {
-        Task AddSync(FlightDto flight);
-        Task UpdateAsync(UpdateFlightDto flight);
+        Task<bool> AddSync(FlightDto flight);
+        Task<bool> UpdateAsync(UpdateFlightDto flight);
     }
 }

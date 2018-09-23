@@ -26,3 +26,17 @@ D:\Projets\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.AssemblyInfo.cs
 D:\Projets\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.csproj.CopyComplete
 D:\Projets\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.dll
 D:\Projets\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.pdb
+D:\Projets\Tui\Tui\Tui.Services\bin\Debug\netcoreapp2.0\Tui.Services.deps.json
+D:\Projets\Tui\Tui\Tui.Services\bin\Debug\netcoreapp2.0\Tui.Services.dll
+D:\Projets\Tui\Tui\Tui.Services\bin\Debug\netcoreapp2.0\Tui.Services.pdb
+D:\Projets\Tui\Tui\Tui.Services\bin\Debug\netcoreapp2.0\Tui.Domain.dll
+D:\Projets\Tui\Tui\Tui.Services\bin\Debug\netcoreapp2.0\Tui.Infrastructure.dll
+D:\Projets\Tui\Tui\Tui.Services\bin\Debug\netcoreapp2.0\Tui.Domain.pdb
+D:\Projets\Tui\Tui\Tui.Services\bin\Debug\netcoreapp2.0\Tui.Infrastructure.pdb
+D:\Projets\Tui\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.csprojAssemblyReference.cache
+D:\Projets\Tui\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.csproj.CoreCompileInputs.cache
+D:\Projets\Tui\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.AssemblyInfoInputs.cache
+D:\Projets\Tui\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.AssemblyInfo.cs
+D:\Projets\Tui\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.csproj.CopyComplete
+D:\Projets\Tui\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.dll
+D:\Projets\Tui\Tui\Tui.Services\obj\Debug\netcoreapp2.0\Tui.Services.pdb

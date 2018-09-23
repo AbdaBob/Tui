@@ -22,3 +22,15 @@ D:\Projets\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.Ass
 D:\Projets\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.csproj.CopyComplete
 D:\Projets\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.dll
 D:\Projets\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.pdb
+D:\Projets\Tui\Tui\Tui.Infrastructure\bin\Debug\netcoreapp2.0\Tui.Infrastructure.deps.json
+D:\Projets\Tui\Tui\Tui.Infrastructure\bin\Debug\netcoreapp2.0\Tui.Infrastructure.dll
+D:\Projets\Tui\Tui\Tui.Infrastructure\bin\Debug\netcoreapp2.0\Tui.Infrastructure.pdb
+D:\Projets\Tui\Tui\Tui.Infrastructure\bin\Debug\netcoreapp2.0\Tui.Domain.dll
+D:\Projets\Tui\Tui\Tui.Infrastructure\bin\Debug\netcoreapp2.0\Tui.Domain.pdb
+D:\Projets\Tui\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.csprojAssemblyReference.cache
+D:\Projets\Tui\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projets\Tui\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.AssemblyInfoInputs.cache
+D:\Projets\Tui\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.AssemblyInfo.cs
+D:\Projets\Tui\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.csproj.CopyComplete
+D:\Projets\Tui\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.dll
+D:\Projets\Tui\Tui\Tui.Infrastructure\obj\Debug\netcoreapp2.0\Tui.Infrastructure.pdb

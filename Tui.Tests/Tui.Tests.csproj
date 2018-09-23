@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Tui.Business\Tui.Business.csproj" />
     <ProjectReference Include="..\Tui.Mvc\Tui.Mvc.csproj" />
+    <ProjectReference Include="..\Tui.Services\Tui.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -13,3 +13,7 @@
 	- MVC core for the client party
 	- The purpose of this, it if someone wants to create a JS client or something else or simply reuse the business, the rest api can be reused
 	- Basic .Net IOC used to inject all what every layer needs
+
+- For the test project:
+ 	- Only the business dll is tested because the logic is there
+	- I tested too the mvc client

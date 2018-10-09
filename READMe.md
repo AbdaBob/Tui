@@ -15,5 +15,5 @@
 	- Basic .Net IOC used to inject all what every layer needs
 
 - For the test project:
- 	- Only the business dll is tested because the logic is there
-	- I tested too the mvc client
+ 	- Only the business at the web api side is tested because the logic is there
+	- The mvc client service is tested too
